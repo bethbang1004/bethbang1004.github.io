@@ -22,10 +22,9 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    flickr:   jekyll
-    instagram: jekyll
+    github:  bethbang1004.github.io
+    linkedIn: bethbang1004
+    instagram: bethbang1004
 
     # Mastodon instances
     # mastodon:
