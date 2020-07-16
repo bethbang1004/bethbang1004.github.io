@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+title: 줌코딩의 코딩일기
+subtitle: Zoom in Coding
+email: zoomkoding@gmail.com
+name: Jinhyeok Jeong
+description: 'Zoom in Coding from the Basic.'
+baseurl: ''
+url: https://gitblogdemo.github.io
+cover: "/assets/Rodman.jpeg"
+logo: "/assets/Crewcials.jpeg"
