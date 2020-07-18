@@ -30,7 +30,7 @@ Angluar, React, Vue 모두 컴포넌트 기반의 프레임워크입니다.
 화면을 컴포넌트로 구조화하면 화면 상단부터 Header, Content, Footer 순으로 구성할 수 있습니다.   
 코드 재사용이 쉬워서 다른 사람이 작성한 코드를 보기에도 비교적 쉬울 것 입니다.
 
-다음 포스팅 [Vue.js 설치하기] 에서 뵐게요 :)
+<span style="color:red">다음 포스팅 [Vue.js 설치하기] 에서 뵐게요 :) </span>
 
 ***
 ### Tip!
