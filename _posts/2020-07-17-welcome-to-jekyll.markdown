@@ -33,7 +33,7 @@ Angluar, React, Vue 모두 컴포넌트 기반의 프레임워크입니다.
 다음 포스팅 [Vue.js 설치하기] 에서 뵐게요 :)
 
 ***
-# Tip!
-## [양방향 데이터 바인딩(Two-way Data Binding)]이란 무엇일까요?
+### Tip!
+#### [양방향 데이터 바인딩(Two-way Data Binding)]이란 무엇일까요?
 [jekyll-docs]: https://jekyllrb.com/docs/home
 ***
