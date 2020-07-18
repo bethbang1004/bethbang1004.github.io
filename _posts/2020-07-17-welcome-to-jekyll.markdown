@@ -13,6 +13,7 @@ Angular, React, VueJS는 최근 프론트엔드 프레임워크로 많이 사용
 - Angluar의 양방향 데이터 바인딩 특성과 React의 단방향 데이터 흐름 모두 가능
 - React의 가상돔 렌더링 방식 포함하여 빠른 렌더링 가능
 - 성능이 빠르고 우수함
+- 컴포넌트 기반 프레임워크
 
 # Vue.js 라이브러리
 UI 개발 방식 모델 중 하나인 MVVM 패턴의 뷰 모델(View Model)에 해당하는 화면 라이브러리
@@ -24,25 +25,15 @@ UI 개발 방식 모델 중 하나인 MVVM 패턴의 뷰 모델(View Model)에 �
 돔 리스너에서 사용자가 무엇을 검색했는지 Model에서 찾아서 데이터를 바인딩합니다.   
 그리고 그 결과를 사용자에게 보여주게 됩니다.   
 
-- 
+# 컴포넌트 기반 프레임워크
+Angluar, React, Vue 모두 컴포넌트 기반의 프레임워크입니다.   
+화면을 컴포넌트로 구조화하면 화면 상단부터 Header, Content, Footer 순으로 구성할 수 있습니다.   
+코드 재사용이 쉬워서 다른 사람이 작성한 코드를 보기에도 비교적 쉬울 것 입니다.
 
-```javascript
-const Razorpay = require('razorpay');
+다음 포스팅 [Vue.js 설치하기] 에서 뵐게요 :)
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
-
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
+***
+# Tip!
+## [양방향 데이터 바인딩(Two-way Data Binding)]이란 무엇일까요?
 [jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+***
