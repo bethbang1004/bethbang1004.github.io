@@ -22,6 +22,7 @@ plainwhite:
   portfolio_image:  "assets/portfolio.png"
   disqus_shortname: bethbang1004
   navigation:
+    - title: Contents
     - title: Vue JS란 무엇인가요?
       url: "https://bethbang1004.github.io/vuejs/vue.js/%EA%B0%9C%EC%9A%94/2020/07/16/welcome-to-jekyll.html"
     - title: Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란...?
