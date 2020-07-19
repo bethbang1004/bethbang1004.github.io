@@ -3,6 +3,7 @@ layout: post
 title:  "Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란 무엇인가요?"
 date:   2020-07-19 00:12:51 +0900
 categories: VueJS Vue.js 양방향_데이터_바인딩
+comments: true
 ---
 #### Contents   
 [Vue JS란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EA%B0%9C%EC%9A%94/2020/07/16/welcome-to-jekyll.html)      
@@ -45,17 +46,3 @@ v-model은 ```<input>, <textarea>, <select>```와 같은 폼에 관련된 태그
 코드를 일일히 정의할 필요없이 v-model 디렉티브로 사용자의 입력값에 따라 바로 적용할 수 있다는 점에서 폼 컨트롤이 정말 유용하겠죠? :)      
 
 #### v-on 디렉티브는 어떨까요?   
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
