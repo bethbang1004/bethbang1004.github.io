@@ -3,7 +3,6 @@ layout: post
 title:  "Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란 무엇인가요?"
 date:   2020-07-19 00:12:51 +0900
 categories: VueJS Vue.js 양방향_데이터_바인딩
-comments: true
 ---
 #### Contents   
 [Vue JS란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EA%B0%9C%EC%9A%94/2020/07/16/welcome-to-jekyll.html)      
