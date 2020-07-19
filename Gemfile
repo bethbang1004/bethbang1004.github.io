@@ -2,3 +2,4 @@
 
 source "https://rubygems.org"
 theme "plainwhite"
+gem "plainwhite"
