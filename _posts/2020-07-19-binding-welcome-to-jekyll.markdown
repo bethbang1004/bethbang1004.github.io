@@ -4,12 +4,12 @@ title:  "Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란 무엇
 date:   2020-07-19 00:12:51 +0900
 categories: VueJS Vue.js 양방향_데이터_바인딩
 ---
-***
-### 목차
-[Vue JS란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EA%B0%9C%EC%9A%94/2020/07/16/welcome-to-jekyll.html, "#1")      
-[Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란 무엇인가요?](*https://bethbang1004.github.io/vuejs/vue.js/%EC%96%91%EB%B0%A9%ED%96%A5_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9/2020/07/18/binding-welcome-to-jekyll.html*, "#2")     
-***
+#### Contents   
+[Vue JS란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EA%B0%9C%EC%9A%94/2020/07/16/welcome-to-jekyll.html)      
+[Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EC%96%91%EB%B0%A9%ED%96%A5_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9/2020/07/18/binding-welcome-to-jekyll.html)   
+* * *
 
+# Vue로 알아보는 양방향 데이터 바인딩   
 우리가 Vue JS를 처음 공부하면서 초반에 공부하던 방식은 단방향 데이터 바인딩 방식일거에요.      
 그래서 이번에는 v-model을 사용하여 양방향 데이터 바인딩을 활용해 보겠습니다.   
 v-model은 ```<input>, <textarea>, <select>```와 같은 폼에 관련된 태그에서 사용할 수 있습니다.   
