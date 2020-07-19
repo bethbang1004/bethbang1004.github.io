@@ -19,7 +19,8 @@ plainwhite:
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-
+  portfolio_image:  "assets/portfolio.png"
+  disqus_shortname: bethbang1004
   # generate social links in footer
   social_links:
     github:  bethbang1004.github.io
@@ -45,6 +46,3 @@ remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
-
-disqus_url: https://bethbang1004.github.io
-disqus_shortname: bethbang1004
