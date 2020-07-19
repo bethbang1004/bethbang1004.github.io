@@ -45,3 +45,17 @@ v-model은 ```<input>, <textarea>, <select>```와 같은 폼에 관련된 태그
 코드를 일일히 정의할 필요없이 v-model 디렉티브로 사용자의 입력값에 따라 바로 적용할 수 있다는 점에서 폼 컨트롤이 정말 유용하겠죠? :)      
 
 #### v-on 디렉티브는 어떨까요?   
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
