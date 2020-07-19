@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "목차"
 date:   2020-07-20 00:12:51 +0900
 ---
