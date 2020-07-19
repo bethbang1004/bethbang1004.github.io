@@ -5,8 +5,8 @@ date:   2020-07-19 00:12:51 +0900
 categories: VueJS Vue.js 양방향_데이터_바인딩
 ---
 우리가 Vue JS를 처음 공부하면서 초반에 공부하던 방식은 단방향 데이터 바인딩 방식일거에요.      
-그래서 이번에는 v-model을 사용하여 양방향 데이터 바인딩을 활용해보겠습니다.   
-v-model은 <input>, <textarea>, <select>와 같은 폼에 관련된 태그에서 사용할 수 있습니다.   
+그래서 이번에는 v-model을 사용하여 양방향 데이터 바인딩을 활용해 보겠습니다.   
+v-model은 [<input>], [<textarea>], [<select>]와 같은 폼에 관련된 태그에서 사용할 수 있습니다.   
 그 중 Vue의 input tag로 양방향 데이터 바인딩 예시를 들어볼게요.  
 
 ```
@@ -17,7 +17,7 @@ v-model은 <input>, <textarea>, <select>와 같은 폼에 관련된 태그에서
   <body>
     <div id="app">
       <h1>Hello, {{ name }}</h1>
-      <input type="text" *v-model="name"/>
+      <input type="text" v-model="name"/>
     </div>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script>
@@ -38,4 +38,6 @@ v-model은 <input>, <textarea>, <select>와 같은 폼에 관련된 태그에서
 
 코드를 일일히 정의할 필요없이 v-model 디렉티브로 사용자의 입력값에 따라 바로 적용할 수 있다는 점에서 폼 컨트롤이 정말 유용하겠죠? :)      
 
-#### v-on 디렉티브는 어떨까요?
+#### v-on 디렉티브는 어떨까요?   
+
+   
