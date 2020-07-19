@@ -46,5 +46,5 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
 
-disqus_url: https://bethbang1004.github.io
-disqus_shortname: bethbang1004
+disqus_url: 'https://bethbang1004.github.io'
+disqus_shortname: 'bethbang1004'
