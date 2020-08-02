@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Vue.js Atom Editor 설치하기"
+title:  "Atom Editor 설치하기 + github 연동하기"
 date:   2020-08-02 21:41:51 +0900
-categories: VueJS Atom 설치
+categories: github Atom 설치
 ---
-#### Contents   
-[Vue JS란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EA%B0%9C%EC%9A%94/2020/07/16/welcome-to-jekyll.html)      
-[Vue.js 양방향 데이터 바인딩(Two-way Data Binding)이란 무엇인가요?](https://bethbang1004.github.io/vuejs/vue.js/%EC%96%91%EB%B0%A9%ED%96%A5_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B0%94%EC%9D%B8%EB%94%A9/2020/07/18/binding-welcome-to-jekyll.html)   
-* * *
 
 # Vue.js 사용을 위한 Atom 설치   
 무료로 사용가능한 Atom Editor를 설치 입니다. (Mac 설치 기준입니다).   
@@ -18,35 +14,58 @@ Chrome 검색창에 Atom을 검색합니다.
 
 두번째,   
 본인의 OS에 맞는 다운로드를 진행합니다.   
+![Alt text](/assets/atom_download.png "atom_download")   
 
+세번째,   
+Atom을 실행합니다.   
+![Alt text](/assets/atom_start.png "atom_시작")   
 
-```
-<html>
-  <head>
-    <title>Two-way Data Binding Example</title>
-  </head>
-  <body>
-    <div id="app">
-      <h1>Hello, {{ name }}</h1>
-      <input type="text" v-model="name"/>
-    </div>
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    <script>
-      new Vue({
-        el: '#app',
-        data: {
-        name: 'Vue.JS'
-          }
-        });
-    </script>
-  </body>
-</html>
+# github 연동하기   
+코드 업로드를 용이하게 사용하기 위해 pull, push를 atom 에서도 사용할 수 있게 github를 연동하겠습니다.   
+
+첫번째,   
+Chrome 검색창에 git 다운로드를 검색합니다.   
+[git 다운로드]: https://git-scm.com/downloads
+
+두번째,   
+brew라는 명령어를 terminal에서 없다고 할 수 있습니다. 이럴 때는 homebrew를 설치합니다.  
+[homebrew 설치]: https://brew.sh/index_ko  
 
 ```
-최초 결과는 Hello, Vue.JS 가 출력됩니다.   
-그리고 사용자는 Input box에 입력을 할 수 있고, 사용자 입력에 따라 출력 결과도 변경됨을 확인 할 수 있습니다.   
-![Alt text](/assets/binding_export.gif "two-way data binding example")   
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"   
 
-코드를 일일히 정의할 필요없이 v-model 디렉티브로 사용자의 입력값에 따라 바로 적용할 수 있다는 점에서 폼 컨트롤이 정말 유용하겠죠? :)      
+```
+![Alt text](/assets/homebrew_install.png "homebrew_설치")   
 
-#### v-on 디렉티브는 어떨까요?   
+세번째,   
+이제 brew 명령어를 사용하여 git을 설치합니다.   
+![Alt text](/assets/brew_install.png "brew_install")   
+```
+brew install git   
+
+또는
+brew install -s git   
+
+```   
+
+네번째,   
+git 계정을 연동합니다(git 계정이 없다면 만들어주세요).   
+![Alt text](/assets/git_account.png "git_계정설정")   
+```
+git config --global user.name "git아이디"   
+```
+
+```
+git config --global user.email "git이메일"
+```
+
+```
+git config --list   
+```
+
+다섯번째,
+이제 atom에서 git을 연동해볼까요?   
+테스트로 github에 본인의 github.io와 연동하는 방법을 소개합니다(보통 블로그로 많이들 사용하시는 페이지가 될 수 있습니다).   
+![Alt text](/assets/atom_git.png "atom_git_연동")   
+
+여섯번째,   
