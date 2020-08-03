@@ -92,5 +92,9 @@ commit을 하여 적용해 봅니다.
 사진과 같이 Stage All > Commit message 작성 > Commit to master 순으로 클릭하여 주세요.   
 ![Alt text](/assets/commit.png "commit")   
 
+#### 열한번째,    
+그러면 atom 우측 하단에 Fetch에서 Push1 이라고 바뀝니다.   
+Push1을 클릭합니다. Pushing이라고 변경되며 push가 완료되면 다시 Fetch로 바뀝니다.   
+![Alt text](/assets/push.png "push")   
 
-그러면 본인의 github.io에 내용이 업로드 된 것을 확인 할 수 있습니다.   
+본인의 github.io에 내용이 업로드 된 것을 확인 할 수 있습니다.   
