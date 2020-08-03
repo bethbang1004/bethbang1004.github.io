@@ -27,11 +27,11 @@ Atom을 실행합니다.
 
 #### 첫번째,   
 Chrome 검색창에 git 다운로드를 검색합니다.   
-[git 다운로드]: (https://git-scm.com/downloads)
+<https://git-scm.com/downloads>
 
 #### 두번째,   
-brew라는 명령어를 terminal에서 없다고 할 수 있습니다. 이럴 때는 homebrew를 설치합니다.  
-[homebrew 설치]: (https://brew.sh/index_ko)
+brew라는 명령어를 terminal에서 없다고 할 수 있습니다. 이럴 때는 homebrew 설치합니다.  
+<https://brew.sh/index_ko>
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"   
@@ -62,8 +62,9 @@ Create Repository를 클릭하여 연동할 git 이름을 작성합니다.
 
 #### 여섯번째,  
 본인의 github 페이지에서 소스 파일을 다운 받습니다.  
-꼭 본인의 github 페이지를 다운받지 않으셔도, 참고할 github가 있다면 그 파일을 다운 받으시면 됩니다.   
-[예시 jekyll theme download]: (https://github.com/samarsault/plainwhite-jekyll)   
+꼭 본인의 github 페이지를 다운받지 않으셔도, 참고할 github가 있다면 그 파일을 다운 받으시면 됩니다.
+[예시 jekyll theme download]     
+<https://github.com/samarsault/plainwhite-jekyll>     
 ![Alt text](/assets/git_down_zip.png "git_down_zip")   
 
 #### 일곱번째,   

@@ -9,7 +9,8 @@ categories: Mac Node.js 설치
 npm 명령어를 사용하기 위해 node.js를 설치하겠습니다.      
 
 #### 첫번째,      
-Chrome 검색창에 **Nodejs 설치** 를 검색합니다.   
+Chrome 검색창에 **Nodejs 설치** 를 검색합니다.  
+<https://nodejs.org/ko/download/>    
 ![Alt text](/assets/search_node.png "nodejs_검색")   
 
 #### 두번째,   
