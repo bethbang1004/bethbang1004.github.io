@@ -33,9 +33,10 @@ plainwhite:
       url: "https://bethbang1004.github.io/github/atom/%EC%84%A4%EC%B9%98/2020/08/02/binding-welcome-to-jekyll.html"
     - title: Node.js 설치하기
       url: "https://bethbang1004.github.io/mac/node.js/%EC%84%A4%EC%B9%98/2020/08/03/binding-welcome-to-jekyll.html"
-    - title: Google Play Console 개발자 등록
-      url: "https://bethbang1004.github.io"
-      
+    - title: Google Play Console 개발자 등록 (Android)   
+      url: "https://bethbang1004.github.io/google/playstore/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%B1%EB%A1%9D/2020/08/24/binding-welcome-to-jekyll.html"
+
+
 
   # generate social links in footer
   social_links:
