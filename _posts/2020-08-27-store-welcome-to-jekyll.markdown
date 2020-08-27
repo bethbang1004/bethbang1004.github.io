@@ -47,7 +47,7 @@ store쪽에 **actions.js, getters.js, mutations.js, state.js** 파일을 생성�
 | `mutations.js` | state를 변경할 수 있음 (state, payload 순으로 commit을 통해 인자를 받을 수 있음) |
 | `state.js` | view와 직접적으로 연결되어 있는 model로 mutations에서 변경이 일어나면 view에도 변경이 일어남 (직접 state에서의 변경 불가능) |        
 
-#### 두번째,    
+#### 두번째 (main.js),    
 현재 Vue.js의 상태관리 라이브러리인 vuex를 import 시켰습니다.   
 vuex는 중앙 집중식 저장소 역할로, 부모와 자식 관계에 연연하지 않고, 별도의 저장소에서 데이터를 관리합니다.   
 오늘 우리는 부모-자식 관계가 아닌 별도 데이터 저장하여 사용할 것이므로, vuex를 설치합니다.   
@@ -63,7 +63,7 @@ new Vue({
 }).$mount('#app')   
 ```      
 
-#### 세번째,       
+#### 세번째(store > index.js),       
 **index.js** 파일에 아래와 같이 내용을 넣어줍니다.    
 ```
 import Vue from 'vue'
@@ -87,7 +87,7 @@ export default new Vuex.Store({
 })
 ```     
 
-#### 네번째,   
+#### 네번째(store > actions.js),   
 **actions.js** 파일에 아래와 같이 내용을 넣어줍니다.   
 ```
 const actions = {
@@ -95,7 +95,7 @@ const actions = {
 export default actions
 ```
 
-#### 다섯번째,   
+#### 다섯번째(store > getters.js),   
 **getters.js** 파일에 아래와 같이 내용을 넣어줍니다.   
 ```
 const getters = {
@@ -103,7 +103,7 @@ const getters = {
 export default actions
 ```          
 
-#### 여섯번째,   
+#### 여섯번째(store > mutations.js),   
 **mutations.js** 파일에 아래와 같이 내용을 넣어줍니다.   
 ```
 const mutations = {
@@ -112,7 +112,7 @@ const mutations = {
 export default mutations
 ```   
 
-#### 일곱번째,   
+#### 일곱번째(store > state.js),   
 **state.js** 파일에 아래와 같이 내용을 넣어줍니다.   
 ```
 const state = {
@@ -128,4 +128,3 @@ export default state
 
 
 이로써, 설정이 완료되었습니다 :)   
-이제 등록할 App에 대한 설정을 시작하시면 됩니다.   
