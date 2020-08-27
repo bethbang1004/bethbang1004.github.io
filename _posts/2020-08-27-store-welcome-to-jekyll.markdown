@@ -10,24 +10,24 @@ Vue에서 데이터를 주고 받을 때, __부모와 자식 관계로 이루어
 그럼, 방식을 알아볼까요?            
 
 ### 어떤 테스트 페이지를 만들까?   
-- 모바일 환경에서 footer에서 특정 버튼 클릭 시 해당 페이지 이동 예시 화면을 만들 예정.     
-- 구조   
-├── _store   
-│   └── index.js   
-│   └── getters.js   
-│   └── actions.js   
-│   └── mutations.js   
-│   └── state.js   
-├── _layouts   
-│   └── _components   
-│       └── footer.vue      
-├── _views   
-│   └── test1.vue   
-│   └── test2.vue   
-│   └── test3.vue   
-│   └── test4.vue   
-├── main.js   
-├── app.vue      
+*모바일 환경에서 footer에서 특정 버튼 클릭 시 해당 페이지 이동 예시 화면을 만들 예정*      
+*구조*   
+- _store   
+  - index.js   
+  - getters.js   
+  - actions.js   
+  - mutations.js   
+  - state.js   
+- layouts   
+  - _components   
+    - footer.vue      
+- _views   
+  - test1.vue   
+  - test2.vue   
+  - test3.vue   
+  - test4.vue   
+- main.js   
+- app.vue      
 
 
 #### 첫번째,  
