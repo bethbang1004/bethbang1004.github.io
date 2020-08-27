@@ -20,7 +20,7 @@ Vue에서 데이터를 주고 받을 때, __부모와 자식 관계로 이루어
 │   └── state.js   
 ├── _layouts   
 │   └── _components   
-│       └── footer.vue   
+│       └── footer.vue      
 ├── _views   
 │   └── test1.vue   
 │   └── test2.vue   
