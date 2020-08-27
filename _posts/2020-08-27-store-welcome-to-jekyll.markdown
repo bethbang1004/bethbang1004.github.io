@@ -42,7 +42,7 @@ store쪽에 **actions.js, getters.js, mutations.js, state.js** 파일을 생성�
 | File | 의미 |
 |---|:---:|---:|
 | `index.js` | actions, getters,mutations, state 불러오는 페이지 |
-| `actions.js` | state, commit, dispatch, rootstate 사용 가능하며 주로 dispatch를 사용함(서로 다른 action 호출이 가능) |  
+| `actions.js` | 비동기 작업이 가능하며, state, commit, dispatch, rootstate 사용 가능하며 주로 dispatch를 사용함(서로 다른 action 호출이 가능) |  
 | `getters.js` | 특정 state에 대한 계산이 이루어 지며, view도 함께 업데이트됨(state는 원본으로 유지) |  
 | `mutations.js` | state를 변경할 수 있음 (state, payload 순으로 commit을 통해 인자를 받을 수 있음) |
 | `state.js` | view와 직접적으로 연결되어 있는 model로 mutations에서 변경이 일어나면 view에도 변경이 일어남 (직접 state에서의 변경 불가능) |        
