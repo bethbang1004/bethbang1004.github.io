@@ -285,4 +285,8 @@ this.$store.commit('SET_FOOTER_STATUS', 0) 와 같이 버튼 별 payload 값을 
 Router 연결은 아래 포스팅 내용을 참고 하여 주세요.   
 연결해서 보아야, 현재 store에 대한 프로젝트도 완성이 됩니다.   
 
+## 결과   
+![Alt text](/assets/store_example_video.gif "vuejs_store_example")   
+
+
 이로써, store에 대한 정리는 마무리 되었습니다 :)      
