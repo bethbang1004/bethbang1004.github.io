@@ -21,12 +21,12 @@ plainwhite:
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   portfolio_image:  "assets/portfolio.png"
   disqus_shortname: bethbang1004
-  show_excerpts: true 
+  show_excerpts: true
   navigation:
     - title: Contents
       url: "https://bethbang1004.github.io"
     - title: VueJS
-      url: "https://bethbang1004.github.io"
+      url: "https://bethbang1004.github.io/vuejs"
     - title: Atom 설치하기 + github 연동하기
       url: "https://bethbang1004.github.io/github/atom/%EC%84%A4%EC%B9%98/2020/08/02/binding-welcome-to-jekyll.html"
     - title: Node.js 설치하기
