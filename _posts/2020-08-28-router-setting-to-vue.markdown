@@ -92,5 +92,9 @@ methods: {
 store 활용 예시와 router 활용 예시 결과 화면 입니다.   
 ![Alt text](/assets/store_example_video.gif "vuejs_store&router_example")   
 
+***   
+Vue.js store 활용하기 포스팅 보러가기   
+[Vue.js store 활용하기]: https://bethbang1004.github.io/vuejs/store/data/2020/08/27/store-welcome-to-jekyll.html   
+***   
 
 이로써, router 대한 정리는 마무리 되었습니다 :)      

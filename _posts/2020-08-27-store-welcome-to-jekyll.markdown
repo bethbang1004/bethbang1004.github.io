@@ -126,7 +126,8 @@ export default state
 
 ### 여덟번째,   
 이렇게 하면, store 를 사용할 수 있는 최소 구성이 완료되었습니다!   
-이제 화면을 볼 수 있는 테스트 페이지를 만들겠습니다 (github 코드를 참고하시면 됩니다).   
+이제 화면을 볼 수 있는 테스트 페이지를 만들겠습니다 (github 코드를 참고하시면 됩니다).  
+<https://github.com/bethbang1004/store_footer>     
 **Path: /src/layouts/components/footer.vue**   
 ```
 <template>
@@ -283,7 +284,11 @@ this.$store.commit('SET_FOOTER_STATUS', 0) 와 같이 버튼 별 payload 값을 
 ### 열세번째,   
 만든 페이지를 클릭 이벤트로 불러와서 지정된 url로 보이게끔 router 연결이 필요합니다.   
 Router 연결은 아래 포스팅 내용을 참고 하여 주세요.   
-연결해서 보아야, 현재 store에 대한 프로젝트도 완성이 됩니다.   
+***   
+Vue.js router 활용하기 포스팅 보러가기   
+[Vue.js router 활용하기]: https://bethbang1004.github.io/vuejs/router/url/2020/08/28/router-setting-to-vue.html      
+***   
+router 포스팅 참고하셔서 연결해서 보아야, 현재 store에 대한 프로젝트도 완성이 됩니다.   
 
 ## 결과   
 ![Alt text](/assets/store_example_video.gif "vuejs_store_example")   
