@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Vue.js"
 date:   2020-08-28 18:00:51 +0900
 categories: VueJS
