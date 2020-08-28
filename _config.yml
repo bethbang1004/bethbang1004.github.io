@@ -21,7 +21,7 @@ plainwhite:
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   portfolio_image:  "assets/portfolio.png"
   disqus_shortname: bethbang1004
-  show_excerpts: true
+  show_excerpts: true 
   navigation:
     - title: Contents
       url: "https://bethbang1004.github.io"
