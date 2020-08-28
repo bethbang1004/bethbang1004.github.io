@@ -29,7 +29,7 @@ Vue에서 데이터를 주고 받을 때, __부모와 자식 관계로 이루어
 - main.js   
 - app.vue      
 *3. 참고 Github 링크*   
-
+https://github.com/bethbang1004/store_footer   
 
 
 #### 첫번째,  
