@@ -139,6 +139,7 @@ pgAdmin에서 알아보기 쉬운 이름으로 설정합니다.
 ## pgAdmin4 설정_3      
 설정한 db를 연결하는 항목입니다.   
 사설 ip를 입력하는 부분인데, 저는 localhost로 접속할 것이기 때문에 host name/address 항목에 localhost를 입력하여 줍니다.        
+
 | 항목 | 값 |   
 |---|:---:|---:|   
 | `Host name/address` | 사설ip (localhost) |
@@ -155,10 +156,10 @@ pgAdmin에서 알아보기 쉬운 이름으로 설정합니다.
 SSH Tunneling 설정 항목 입니다.   
 ssh 로그인 시 public key로 연결을 하는 경우에는 외부에서 db를 연결할 때도 ssh Tunneling 설정을 하지 않으면, 연결이 되지 않습니다.   
 내가 접속해도 되는 사용자라는 걸 증명하기 위해 ssh Tunneling을 해주어야 합니다.   
-   
+
 | 항목 | 값 |   
 |---|:---:|---:|   
-| `Use SSH tunneling` | Yes) |
+| `Use SSH tunneling` | Yes |
 | `Tunnel Host` | 공인 IP (ssh 접속 IP) |
 | `Tunnel Port` | 22 (ssh 기본 포트) |
 | `Username` | SSH 접속 계정 |
