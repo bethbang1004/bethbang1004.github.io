@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vue.js router 활용하기"
+title:  "Postgresql pgAdmin4로 접속하기 (SSH Tunneling 사용)"   
 date:   2020-09-05 01:10:51 +0900
 categories: Postgresql SSH Tunneling
 ---
