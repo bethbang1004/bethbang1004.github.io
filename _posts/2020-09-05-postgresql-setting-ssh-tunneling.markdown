@@ -84,6 +84,7 @@ sudo service postgresql restart
 ```   
 sudo ufw status
 ```     
+방화벽 상태 확인 후,   
 ```   
 sudo ufw allow 5432   
 ```    
@@ -94,6 +95,7 @@ sudo ufw allow 5432
 ```   
 sudo -i -u postgres   
 ```   
+postgres로 계정 변환 후 db 접속은 아래와 같습니다.   
 ```   
 psql      
 ```   
@@ -124,6 +126,7 @@ psql -h localhost -U postgres -d 생성한DB명
 pgAdmin4 다운로드:   
 <https://www.pgadmin.org/download/>      
 ***   
+   
 이제 Gui 툴인 pgAdmin4에서 사용할 수 있도록 db 연결을 하겠습니다.   
 **Add New Server**를 클릭합니다.      
 ![Alt text](/assets/AddServer.png "add_new_server")      
@@ -138,11 +141,12 @@ pgAdmin에서 알아보기 쉬운 이름으로 설정합니다.
 사설 ip를 입력하는 부분인데, 저는 localhost로 접속할 것이기 때문에 host name/address 항목에 localhost를 입력하여 줍니다.     
 | 항목 | 값 |
 |---|:---:|---:|
-| `Host name/address` | 사설ip (localhost) |   
-| `Port` | 설정한 DB 포트 5432 |   
-| `Maintenance database` | 설정한 db명 |   
-| `Username` | 설정한 db 계정명 (기본 계정 postgres) |   
-| `Password` | 설정한 db 계정의 비밀번호 |   
+| `Host name/address` | 사설ip (localhost) |
+| `Port` | 설정한 DB 포트 5432 |
+| `Maintenance database` | 설정한 db명 |
+| `Username` | 설정한 db 계정명 (기본 계정 postgres) |
+| `Password` | 설정한 db 계정의 비밀번호 |
+
 
 **Connection 탭 DB 연결 설정**           
 ![Alt text](/assets/connection.png "connection")    
@@ -153,12 +157,13 @@ ssh 로그인 시 public key로 연결을 하는 경우에는 외부에서 db를
 내가 접속해도 되는 사용자라는 걸 증명하기 위해 ssh Tunneling을 해주어야 합니다.   
 | 항목 | 값 |
 |---|:---:|---:|
-| `Use SSH tunneling` | Yes) |   
-| `Tunnel Host` | 공인 IP (ssh 접속 IP) |   
-| `Tunnel Port` | 22 (ssh 기본 포트) |   
-| `Username` | SSH 접속 계정 |   
-| `Authentication` | Identity file |    
-| `Identity file` | public key 파일 삽입 |    
+| `Use SSH tunneling` | Yes) |
+| `Tunnel Host` | 공인 IP (ssh 접속 IP) |
+| `Tunnel Port` | 22 (ssh 기본 포트) |
+| `Username` | SSH 접속 계정 |
+| `Authentication` | Identity file |
+| `Identity file` | public key 파일 삽입 |
+
 
 **SSH Tunneling 탭 SSH 연결 설정**           
 ![Alt text](/assets/sshTunneling.png "sshTunneling")     
