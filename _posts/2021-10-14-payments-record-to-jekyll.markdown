@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "페이먼스 연동 테스트 영상 "
+title:  "페이먼츠 연동 테스트 영상"    
 date:   2021-10-14 21:48:51 +0900
 categories: toss payments test
 ---
@@ -17,8 +17,8 @@ categories: toss payments test
 
 
 *3. 참고 영상*   
-  
-![Alt text](/assets/payments_record.gif "payments_record")     
+
+![Alt text](/assets/payment_record.gif "payments_record")     
 
 
 감사합니다 :)      
