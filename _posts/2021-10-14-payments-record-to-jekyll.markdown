@@ -18,7 +18,7 @@ categories: toss payments test
 
 *3. 참고 영상*   
 
-![Alt text](/assets/payments_record.mp4 "payments_record")   
+![Alt text](/assets/payments_record.gif "payments_record")    
 
 
 감사합니다 :)      
